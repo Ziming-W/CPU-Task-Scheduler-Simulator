@@ -1,0 +1,11 @@
+0,RUNNING,process_name=P1,remaining_time=50
+50,FINISHED,process_name=P1,proc_remaining=2
+50,RUNNING,process_name=P4,remaining_time=10
+60,FINISHED,process_name=P4,proc_remaining=2
+60,RUNNING,process_name=P2,remaining_time=30
+90,FINISHED,process_name=P2,proc_remaining=1
+90,RUNNING,process_name=P5,remaining_time=80
+170,FINISHED,process_name=P5,proc_remaining=0
+Turnaround time 68
+Time overhead 2.67 1.57
+Makespan 170

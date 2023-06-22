@@ -1,0 +1,6 @@
+*.exe
+allocate
+process
+.vscode
+*:*Zone.Identifier
+/hidden

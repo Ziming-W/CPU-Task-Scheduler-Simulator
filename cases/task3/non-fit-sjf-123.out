@@ -1,0 +1,15 @@
+0,READY,process_name=P0,assigned_at=0
+0,RUNNING,process_name=P0,remaining_time=100
+30,READY,process_name=P1,assigned_at=1024
+60,READY,process_name=P2,assigned_at=1536
+102,FINISHED,process_name=P0,proc_remaining=2
+102,READY,process_name=P4,assigned_at=0
+102,RUNNING,process_name=P4,remaining_time=30
+132,FINISHED,process_name=P4,proc_remaining=2
+132,RUNNING,process_name=P2,remaining_time=50
+183,FINISHED,process_name=P2,proc_remaining=1
+183,RUNNING,process_name=P1,remaining_time=100
+285,FINISHED,process_name=P1,proc_remaining=0
+Turnaround time 128
+Time overhead 2.55 1.77
+Makespan 285
