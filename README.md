@@ -4,6 +4,18 @@ Project work for COMP30023(Computer System) at University of Melbourne.
 `Sheduling option`: Round Robin | Shortest Job First  
 `Memory allocation option`: infinite memory | best-first
 
+## File Purpose
+| File    | Description |
+| -------- | ------- |
+|readIn.c/readIn.h | Parse command line argument, read in processes input from text file    |
+| dataStructure.c/dataStructure.h| data structure helpers |
+|schedule.c/schedule.h| Core task sheduling logic|
+|printResult.c/printResult.h|helpers to print transcript to stdout|
+|process.c|Authorized by teaching team, mock processes|
+|controlRealProcess.c/controlRealProcess.h|collaborate with process.c, perfrom real multi-processing|
+|allocate.c|main entry point|
+
+
 
 ## Compile
 
